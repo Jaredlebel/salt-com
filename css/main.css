@@ -51,15 +51,15 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-   font-size: 5em;
+   font-size: 3em;
 }
 
 h2 {
-   font-size: 4em;
+   font-size: 2.5em;
 }
 
 h3 {
-   font-size: 3em;
+   font-size: 2em;
 }
 
 h4 {
@@ -68,6 +68,23 @@ h4 {
 
 h5 {
    font-size: 1em;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+em {
+    font-style: oblique;
+}
+
+a {
+    color: #545454;
+    text-decoration: none;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 .tk-cooper-black-std {
@@ -100,45 +117,23 @@ h5 {
 
 /* Colours styles end */
 
-/* Character styles begin */
-
-a {
-    color: #545454;
-    text-decoration: none;
+.left {
+    display: block;
 }
 
-b, strong {
-    font-weight: 700;
+.right {
+    display: block;
 }
-
-em {
-    font-style: oblique;
-}
-
-img {
- 
-}
-
-.underline {
-    text-decoration: underline;
-}
-
-/* Character styles end */
 
 /* Sections begin */
 
 .hero {
-    padding: 16em 10em 10em 10em;
     background-color: #393939;
-}
-
-.hero p {
-    padding: 1em 20em 1em 0;
+    padding: 1em;
 }
 
 .about {
     margin-top: 1em;
-    padding: 5em 10em;
     background-color: #c9dde2;
 }
 
@@ -146,7 +141,6 @@ img {
     margin-top: 1em;
     background-color: #ededed;
     color: #525252;
-    padding: 2em 10rem;
 }
 
 .work ul {
