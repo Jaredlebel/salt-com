@@ -1,0 +1,182 @@
+*, *:after, *:before {margin: 0; padding: 0;}
+
+html {
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0 1em;
+    max-width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #545454;
+    background-color: #ffffff;
+    xbox-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    position: relative;
+}
+
+main {
+}
+
+header {
+    position: fixed;
+    font-weight: 500;
+    padding: 2.5em 0 1.5em 0;
+    background-color: #ffffff;
+    width: 100%;
+    text-align: right;
+}
+
+header ul {
+    margin: 0 2.5em 0 0;
+}
+
+header ul li {
+    padding: 0 2.5em;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+
+header ul li:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #414141;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+
+h1 {
+   font-size: 5.5em;
+}
+
+h2 {
+   font-size: 4.25em;
+}
+
+h3 {
+   font-size: 3em;
+}
+
+h4 {
+   font-size: 1.5em;
+}
+
+h5 {
+   font-size: 1em;
+}
+
+.tk-cooper-black-std {
+    font: 'cooper-black-std', serif;
+}
+
+.tk-letter-gothic-std {
+    font: 'letter-gothic-std' sans-serif;
+}
+
+.tk-neuzeit-grotesk {
+    font: 'neuzeit-grotesk', sans-serif;
+}
+
+a {
+    color: #545454;
+    text-decoration: none;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+em {
+    font-style: oblique;
+}
+
+img {
+ 
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* Sections begin */
+
+.main {
+
+}
+
+.hero {
+    padding: 16em 10em 18em 10em;
+    background-color: #393939;
+}
+
+.hero h1 {
+    color: #ffffff;
+}
+
+.about {
+    margin-top: 1em;
+    padding: 10em 42em 10em 10em;
+    background-color: #c9dde2;
+}
+
+.work {
+    margin-top: 1em;
+    background-color: #ededed;
+    color: #525252;
+    padding: 5em 0 0 0;
+}
+
+.work h2 {
+    padding: 0 10rem;
+}
+
+.work ul {
+    list-style-type: none;
+    padding: 2em 0 0 0;
+}
+
+.work ul li {
+    padding: 2.5em 5em 2.5em 10em;
+    -webkit-transition: all 200ms ease-in;
+}
+
+.work ul a {
+    font-weight: 700;
+    font-size: 1.5em;
+    -webkit-transition: all 200ms ease-in;
+}
+
+.work ul li:hover {
+    background-color: #6a6a6a;
+    color: #fff;
+}
+
+.work ul li:hover a {
+    color: #fff;
+}
+.contact {
+    margin-top: 1em;
+    padding: 2em;
+    background-color: #313131;
+    color: #525252;
+}
+
+.contact ul li {
+    list-style: none;
+}
+
+/* Sections end */
+
+@-webkit-keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+    }
+}
