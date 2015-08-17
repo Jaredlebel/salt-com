@@ -6,7 +6,6 @@ html {
 }
 
 body {
-    margin: 0 2em;
     max-width: 100%;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -14,23 +13,22 @@ body {
     position: relative;
 }
 
+main {
+    padding: 4em 1em 0;
+}
+
 /* Navigation begins */
 
 header {
     position: fixed;
     font-weight: 700;
-    padding: 2.5em 0 1.5em 0;
     background-color: #ffffff;
     width: 100%;
-    text-align: right;
-}
-
-header ul {
-    margin: 0 5.5em 0 0;
+    text-align: center;
 }
 
 header ul li {
-    padding: 0 2.5em;
+    padding: 1em;
     text-decoration: none;
     list-style: none;
     display: inline-block;
@@ -51,27 +49,36 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-   font-size: 3em;
-}
-
-h2 {
    font-size: 2.5em;
 }
 
-h3 {
+h2 {
    font-size: 2em;
 }
 
-h4 {
+h3 {
    font-size: 1.5em;
+}
+
+h4 {
+   font-size: 1.25em;
 }
 
 h5 {
    font-size: 1em;
 }
 
+p {
+    font-size: 0.875em;
+    padding: 1em 0;
+}
+
 b, strong {
     font-weight: 700;
+}
+
+.captions {
+    padding-top: 2em;
 }
 
 em {
@@ -93,6 +100,7 @@ a {
 
 .tk-letter-gothic-std {
     font: 'letter-gothic-std' sans-serif;
+    font-weight: 700;
 }
 
 .tk-neuzeit-grotesk {
@@ -117,30 +125,26 @@ a {
 
 /* Colours styles end */
 
-.left {
-    display: block;
-}
-
-.right {
-    display: block;
-}
-
 /* Sections begin */
 
 .hero {
     background-color: #393939;
-    padding: 1em;
+    padding: 4em 2em;
+    text-align: center;
 }
 
 .about {
     margin-top: 1em;
+    padding: 2em;
     background-color: #c9dde2;
+    text-align: center;
 }
 
 .work {
     margin-top: 1em;
+    padding: 2em;
     background-color: #ededed;
-    color: #525252;
+    text-align: center;
 }
 
 .work ul {
@@ -156,12 +160,25 @@ a {
     margin-top: 1em;
     padding: 2em;
     background-color: #313131;
-    color: #525252;
+    text-align: center;
+}
+
+.contact h4 {
+    padding-bottom: 1em;
 }
 
 .contact ul li {
+    display: inline-block;
+    padding: 0.5em 1em;
+}
+
+.contact a {
     list-style: none;
+    color: #ffffff;
+}
+
+.contact a:hover {
+    text-decoration: underline;
 }
 
 /* Sections end */
-
